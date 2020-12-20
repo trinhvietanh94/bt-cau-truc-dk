@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    var sales = parseFloat(prompt('doanh so'));
+    var commision;
+    if (sales > 0 && sales < 1000){
+        commision = sales * 0.01;
+    }else if (sales < 2000){
+        commision = sales * 0.02;
+    }else {
+        commision = sales * 0.03;
+    }
+    alert('tien hoa hong: ' + commision);
+</script>
